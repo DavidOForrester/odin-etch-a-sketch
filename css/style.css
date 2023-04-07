@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.square {
+    width: calc(400px / var(--columns));
+    height: calc(400px / var(--columns));
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
